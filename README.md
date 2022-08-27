@@ -3,9 +3,14 @@
   <img src="/images/ud-logo.png" alt="Uma Website Logo" width="120px" height="120px"/>
   <br>
   Fast canvas image resize/resample using ResizeImage filter with JavaScript. Supports transparency, gives good quality. Library was created for canvas manipulation, but it also can resize HTML images.
-
-  Uses web workers with transferable objects. Also single core version is supported.
 </p>
+
+Uses web workers with transferable objects. Also single core version is supported.
+
+## Live Working Demo 
+https://jsfiddle.net/574g81dv/6/
+
+
 
 **Install** with NPM:
 ```
@@ -38,4 +43,3 @@ RESIZEIMAGE.resize_image('image_id', null, null, 50);
 ```
 
 - demo file included: ```test/demo.html``` 
-- single core demo - https://jsfiddle.net/574g81dv/2/
